@@ -1,0 +1,11 @@
+body {
+  background-color: grey;
+}
+#images.on img.on ,
+#images.off img.off {
+  display: block;
+}
+#images.on img.off ,
+#images.off img.on {
+  display: none;
+}

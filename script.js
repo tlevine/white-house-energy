@@ -1,14 +1,16 @@
 flip = function() {
   var i = document.getElementById('images')
   var oldClass = i.getAttribute('class')
-  var newClass = oldClass == 'on' ? 'off' : 'on'
+  var classMappinngs = { 'one': 'two', 'two': 'three',
+                         'three': 'four', 'four': three' }
+  var newClass = classMappings[oldClass]
   i.setAttribute('class', newClass)
 }
-function apply() {
+function main() {
   var imgs = document.querySelectorAll('#images img')
   for (var i = 0; i < imgs.length; i++) {
     imgs[i].onclick = flip
   }
 }
 
-document.body.onload = apply
+document.body.onload = main

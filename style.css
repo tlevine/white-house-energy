@@ -1,8 +1,8 @@
 body {
-  background-color: grey;
+  background-color: #ccc;
 }
 
-.header {
+header {
   text-align: center;
 }
 
@@ -17,11 +17,13 @@ body {
 #images img {
   width: 100%;
 }
-#images {
+header, #images, footer {
   width: 100%;
   max-width: 440px;
   margin-left: auto;
   margin-right: auto;
+}
+#images {
   background-color: black;
   padding: 20px;
 }

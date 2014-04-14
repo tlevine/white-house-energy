@@ -6,16 +6,15 @@ header {
   text-align: center;
 }
 
-#images.on img.on ,
-#images.off img.off {
-  display: block;
-}
-#images.on img.off ,
-#images.off img.on {
-  display: none;
-}
 #images img {
+  display: none;
   width: 100%;
+}
+#images.one img.one,
+#images.two img.two,
+#images.three img.three,
+#images.four img.four {
+  display: block;
 }
 header, #images, footer {
   width: 100%;

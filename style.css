@@ -1,6 +1,11 @@
 body {
   background-color: grey;
 }
+
+.header {
+  text-align: center;
+}
+
 #images.on img.on ,
 #images.off img.off {
   display: block;
@@ -14,7 +19,9 @@ body {
 }
 #images {
   width: 100%;
-  max-width: 480px;
+  max-width: 440px;
   margin-left: auto;
   margin-right: auto;
+  background-color: black;
+  padding: 20px;
 }

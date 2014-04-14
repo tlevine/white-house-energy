@@ -1,8 +1,7 @@
 flip = function() {
   var i = document.getElementById('images')
   var oldClass = i.getAttribute('class')
-  var classMappinngs = { 'one': 'two', 'two': 'three',
-                         'three': 'four', 'four': three' }
+  var classMappings = { 'one': 'two' , 'two': 'three', 'three': 'four', 'four': 'three' }
   var newClass = classMappings[oldClass]
   i.setAttribute('class', newClass)
 }
